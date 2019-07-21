@@ -1,0 +1,1211 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,800');
+html{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin:0;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin:0 auto;
+	text-decoration: none;
+	font-size: 16px;
+}
+body h1, h2, h3, h4, h5{
+	font-weight: 800;
+}
+body h1{
+	font-size: 3em;
+}
+body h2{
+	font-size: 2em;
+}
+body h3{
+	font-size: 1.5em;
+}
+body h4{
+	font-size: 1.25em;
+}
+body h5{
+	font-size: 1.1em;
+}
+textarea {
+  resize: none;
+}
+#membership_section{
+	padding-bottom: 380px;
+}
+#admin_testimonial_section{
+	padding-bottom: 700px;
+}
+.global_button{
+	display: inline-block;
+	padding: 10px 14px;
+	background: white;
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.error {
+	font-family: 'Raleway', sans-serif;
+  color:#800000;
+  margin-top: -5px;
+}
+/*Navigation Bar Start*/
+	header {
+		background: #101010;
+		padding: 1em 0;
+		height: 50px;
+		width: 100%;
+	}
+	.nav_list {
+		list-style: none;
+	}
+	.nav_main a {
+		color: #FFFFFF;
+		font-size: 15px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	#logo{
+		width:180px;
+		margin: -10px 0px 0px 10px;
+	}
+	#burger {
+			display: none;
+	}
+	/*not displaying toggle*/
+	#toggle{
+			display: none;
+	}
+/*Navigation Bar End*/
+/*Homepage Start*/
+	/*Welcome End*/
+	.home_container{
+		height: 100%;
+		width: 100%;
+		margin: auto;
+		background-color: #101010;
+		background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../img/homepage.jpg") center no-repeat;
+		display: table;
+		top: 0px;
+		background-size: cover;
+	}
+	.home_container .home_info_inner{
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
+		max-width:none;
+	}
+	#homeborder{
+		width: 15%;
+		height: 5px;
+		background: #812cc8;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	#gymtext{
+		color:#FFFFFF;
+	}
+	#welcome{
+		color:#FFFFFF;
+		font-size: 1.1em;
+		margin-bottom: -30px;
+	}
+	#owner{
+		color:#FFFFFF;
+		font-size: 1.1em;
+		margin-top: -25px;
+	}
+	.home_info{
+		width: 70%;
+		max-width: 500px;
+		margin:0 auto;
+		text-align: center;
+	}
+	.home_info h1{
+		text-align: center;
+		color: #812cc8;
+	}
+	.home_info p{
+		text-align: center;
+		color: #FFFFFF;
+	}
+	.offer a{
+		color: #101010;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.offer{
+		width: 40%;
+		background:#E1D5E7;
+		padding: 8px;
+		margin:auto;
+	}
+	.offer:hover{
+		background:#9673A6;
+	}
+	/*Welcome End*/
+	/*Update start*/
+	.update_container{
+		background-color:  #101010;
+		padding-top: 0.1em;
+		margin:0px auto;
+	}
+	.update_container h2{
+		color: #812cc8;
+		text-align: center;
+		font-size: 1.5em;
+	}
+	.updates{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		margin: 0px auto;
+		width:100%;
+	}
+	.update_info{
+		margin: 0px auto;
+		position: relative;
+		text-align: center;
+		color: #FFFFFF;
+		width:100%;
+	}
+	.img_update{
+		width:100%;
+		display: block;
+		transition: all 0.5s;
+	}
+	.img_update:hover{
+		opacity: 0.7;
+		filter: grayscale(100%);
+		color: #812cc8;
+	}
+	/*Update End*/
+/*Homepage End*/
+/*Membership Start*/
+	.membership{
+		background-color: #101010;
+		border-top: 1px solid #E1D5E7;
+		margin: 0 auto;
+	}
+	.membership_container{
+		padding: 30px;
+	}
+	.membership_info{
+		margin: auto;
+		border: 2px solid #E1D5E7;
+		padding: 10px;
+		padding-bottom:30px;
+		background-color: #101010;
+	}
+	.membership_info h3{
+		text-align: center;
+		color: #812cc8;
+	}
+	.membership_info p{
+		text-align: center;
+		color: #FFFFFF;
+	}
+	.join_now a{
+		color: #101010;
+		font-size: 14px;
+		text-decoration: none;
+	}
+	.join_now{
+		width: 110px;
+		height: 18px;
+		background:#E1D5E7;
+		border: 3px solid #9673A6;
+		padding: 3px;
+		margin:auto;
+		margin-top: -10px;
+	}
+	.join_now:hover{
+		background:#9673A6;
+		border: 3px solid #E1D5E7;
+	}
+	/*FAQ Start*/
+		.faq_container {
+			max-width: 940px;
+			margin: 0 auto;
+			padding:10px;
+		}
+		.faq_question h3 {
+	  	font-size: 14px;
+	    background-color: #101010;
+	    color: #ffffff;
+	    cursor: pointer;
+			text-align: center;
+			border: 1px solid #E1D5E7;
+			padding: 10px;
+			margin-top:-16px;
+		}
+		.faq_content {
+			background-color: #101010;
+			display: none;
+		}
+		.faq_answer {
+		    padding: 10px;
+				background-color: #E1D5E7;
+				margin-top: -17px;
+		}
+		.faq_answer p{
+		    font: 14px;
+				margin-top: -2px;
+		}
+	/*FAQ End*/
+/*Membership End*/
+/*Classes Start*/
+	/*Timetable Start*/
+	.class_intro_container{
+		background:#101010;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 30px;
+		margin: 0px auto;
+		border-top: 1px solid #E1D5E7;
+	}
+	.class_text{
+		margin: 0px auto;
+		width: 90%;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.class_text h1{
+		font-size: 24px;
+		color:#812cc8;
+	}
+	.class_text p{
+		color: #FFFFFF;
+	}
+	.timetable_info{
+		margin: 0px auto;
+		position: relative;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	.img_timetable{
+		width: 90%;
+		border: 1px solid #E1D5E7;
+		margin-top: 30px;
+	}
+	.img_timetable:hover{
+		border: 1px solid #812cc8;
+		opacity: 2;
+	}
+	/*Timetable End*/
+	/*Class Start*/
+		.class_container{
+			background-color: #101010;
+			padding-top: 10px;
+		}
+		.class_container h1{
+			color: #812cc8;
+			font-size: 24px;
+			text-align: center;
+		}
+		.class_info{
+			margin: 0px auto;
+			position: relative;
+			text-align: center;
+			color: #FFFFFF !important;
+		}
+		.img_class{
+			display: block;
+			margin: 0px auto;
+			border: 1px solid #E1D5E7;
+			opacity: 0.8;
+			transition: all 0.5s;
+		}
+		.img_class:hover{
+			border: 1px solid #812cc8;
+			opacity: 2;
+			filter: grayscale(100%);
+			color: #812cc8;
+		}
+		.centered {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		.centered span{
+			font-size: 50px;
+			font-weight: 800;
+			text-transform: uppercase;
+		}
+		.centered:hover{
+			cursor: pointer;
+		}
+	/*Class End*/
+	/*Class Expand Start*/
+		.class_expand_container{
+			display: grid;
+			grid-template-columns: 50% 50%;
+			background:#101010;
+			border-top: 0.5px solid #EAEAEB;
+			width: 100%;
+			min-height:80%;
+		}
+		.class_expand{
+			margin: 0px auto;
+		}
+		.class_expand h1{
+			font-size: 24px;
+			color:#812cc8;
+		}
+		.class_expand p{
+			color: #FFFFFF;
+		}
+		.class_expand_img{
+			display: flex;
+			width: 100%;
+			height: 100%;
+		}
+		.class_form{
+			display: block;
+			width: 35%;
+			box-sizing: border-box;
+		}
+		.class_expand_btn{
+			width: 100px;
+			background:#E1D5E7;
+			border: 3px solid #9673A6;
+			padding: 5px 5px;
+		}
+		.class_expand_btn:hover{
+			background:#9673A6;
+		}
+		.class_edit h1, h2, h3{
+			color:#812cc8;
+		}
+	/*Class Expand Us End*/
+/*Classes End*/
+/*About Us Start*/
+	.about_us_container{
+		display: grid;
+		grid-template-columns: 40% 60%;
+		background:#101010;
+		border-top: 0.5px solid #EAEAEB;
+		width: 100%;
+		min-height:80%;
+	}
+	.about_us{
+		margin: 0px auto;
+	}
+	.about_us h1{
+		font-size: 24px;
+		color:#812cc8;
+	}
+	.about_us p{
+		color: #FFFFFF;
+	}
+	.about_img{
+		display: flex;
+		width: 100%;
+		height: 100%;
+	}
+/*About Us End*/
+/*Testimonial Start*/
+	.testimonial_container{
+		background:#101010;
+		padding-bottom:60px;
+		border-top: 0.5px solid #EAEAEB;
+		width: 100%;
+	}
+	.testimonial_container h3,.testimonial_container h2{
+		color: #812cc8;
+		width: 100%;
+	}
+	.search_button{
+		background:#E1D5E7;
+		border: 3px solid #9673A6;
+	}
+	.search_button:hover{
+		background:#9673A6;
+		border: 3px solid #E1D5E7;
+	}
+	.write_button a{
+		color: #101010;
+		font-size: 14px;
+		text-decoration: none;
+		margin-left:5px;
+	}
+	.write_button{
+		width: 150px;
+		height: 18px;
+		background:#E1D5E7;
+		border: 3px solid #9673A6;
+		padding: 3px;
+	}
+	.write_button:hover{
+		background:#9673A6;
+		border: 3px solid #E1D5E7;
+	}
+	.testimonial{
+		width: 90%;
+		margin:10px auto;
+	}
+	.card {
+		padding: 5px 16px;
+		background-color: #E1D5E7;
+	}
+	.member{
+		text-align: right;
+	}
+	.testimonial_container .border{
+		width: 90%;
+		margin: auto;
+		height: 5px;
+	}
+	/*Testimonial Form Start*/
+		#borderwrite{
+			width: 90%;
+			height: 5px;
+			background: #666666;
+			margin:0px auto;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		.testimonContainer label{
+			color: #812cc8;
+			font-weight: bold;
+		}
+		.testimonial_form{
+			display: block;
+			margin-left: 100px
+		}
+		.testimonial_form textarea{
+			resize: none;
+			height: 150px;
+		}
+		/*Star Start*/
+		/*Star End*/
+	/*Testimonial Form End*/
+/*Testimonial End*/
+/*Careers Start*/
+	.career_form{
+		max-width: 600px;
+		margin: auto;
+		padding: 10px 10px;
+	}
+	.career_form h1{
+		text-align: center;
+		font-size: 28px;
+		color:#812cc8;
+	}
+	.career_form p{
+		text-align: center;
+		margin:auto;
+		margin-top: -10px;
+		margin-bottom: 10px;
+		color:#812cc8;
+		width: 85%;
+	}
+	.career_form label{
+		color:#FFFFFF;
+	}
+	.career_form textarea{
+		resize: none;
+		height: 100px;
+	}
+	.submit_form{
+		float: right;
+		width: 120px;
+		background:#E1D5E7;
+		border: 3px solid #9673A6;
+		padding: 8px 5px;
+		margin-top:25px;
+		margin-bottom: 10px;
+	}
+	.submit_form:hover{
+		background:#9673A6;
+		border: 3px solid #E1D5E7;
+	}
+/*Careers End*/
+/*Contact Us Start*/
+	.contact_contain{
+		background:#101010;
+		padding-top:20px;
+		padding-bottom:50px;
+		width: 100%;
+	}
+	.contact_contain span{
+		color: white;
+		font-weight: 800;
+	}
+	.contact_form{
+		width: 85%;
+		margin: 0px auto;
+		padding: 10px 50px;
+	}
+	.contact_form h1{
+		color:#812cc8;
+		font-size: 32px;
+	}
+	.contact_form p{
+		color:#812cc8;
+	}
+	.contact_form textarea{
+		resize: none;
+		height: 100px;
+		font-family: Helvetica;
+		font-size:14px;
+	}
+	.contact_control{
+		display: block;
+		background:#CCCCCC;
+		border: 0px;
+		width: 100%;
+		box-sizing: border-box;
+		margin: 10px 0px;
+		padding: 10px 15px;
+	}
+	.send_message{
+		float: right;
+		width: 160px;
+		background:#E1D5E7;
+		border: 3px solid #9673A6;
+		padding: 8px 5px;
+		margin-bottom: 10px;
+	}
+	.send_message:hover{
+		background:#9673A6;
+		border: 3px solid #E1D5E7;
+	}
+	#map{
+		margin: 30px auto;
+		height:600px;
+		width:90%;
+	}
+/*Contact Us End*/
+/*Join Now Start*/
+	.form_container{
+		background:#101010;
+		padding-bottom:80px;
+		border-top: 0.5px solid #EAEAEB;
+	}
+	.form{
+		max-width: 700px;
+		margin: auto;
+		padding: 10px 10px;
+	}
+	.form_class_container{
+		display: grid;
+		grid-template-columns:5% 15% 5% 28% 5% 25%;
+		margin: 10px auto;
+		width:100%;
+	}
+	.form_class{
+		margin: 0px auto;
+		width:100%;
+	}
+	.form label{
+		color:#FFFFFF;
+	}
+	.form h1{
+		color:#812cc8;
+		text-align: center;
+		font-size: 28px;
+	}
+	.form_control{
+		display: block;
+		background:#CCCCCC;
+		width: 100%;
+		box-sizing: border-box;
+		margin: 10px 0px;
+		padding: 10px 15px;
+	}
+	.border{
+		width: 100%;
+		height: 5px;
+		background: #666666;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.form_checkbox {
+		float: right;
+	}
+	.form_radio{
+		float: right;
+		margin-left: 10px;
+	}
+	.formBtn{
+		float: right;
+		width: 100px;
+		background:#E1D5E7;
+		border: 3px solid #9673A6;
+		padding: 8px 5px;
+		margin-bottom: 10px;
+	}
+	.formBtn:hover{
+		background:#9673A6;
+		border: 3px solid #E1D5E7;
+	}
+/*Join Now End*/
+/*Login Start*/
+	.login{
+		height:700px;
+		width: 100%;
+		border-top: 0.5px solid #FFFFFF;
+		background-color:#101010;
+	}
+	.login_area{
+		margin: 0 auto;
+		margin-top: 150px;
+		padding-top: 1px;
+		padding-bottom: 10px;
+		width: 500px;
+		background-color:#812cc8;
+	}
+	.login_area form{
+		margin: 50px;
+		margin-left: 50px;
+	}
+	.login_area form input{
+		margin-bottom: 15px;
+		margin-left: 15px;
+		height: 25px;
+		width: 290px;
+	}
+	.login_area form button{
+		width: 295px;
+		height: 25px;
+	}
+/*Login End*/
+/*Admin Forms Start*/
+.admin_container{
+	background:#101010;
+	padding-bottom:60px;
+	border-top: 0.5px solid #EAEAEB;
+	height: 650px;
+}
+.admin_form{
+	max-width: 600px;
+	margin: auto;
+	padding: 10px 10px;
+}
+.admin_form h1{
+	text-align: center;
+	font-size: 28px;
+	color:#812cc8;
+}
+.admin_form p{
+	text-align: center;
+	margin:auto;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	color:#812cc8;
+	width: 85%;
+}
+.admin_form label{
+	color:#FFFFFF;
+}
+.admin_form textarea{
+	resize: none;
+	height: 100px;
+}
+/*Admin Forms End*/
+/*Footer Start*/
+	footer{
+		background-color: #101010;
+		border-top: 1px solid #FFFFFF;
+		width: 100%;
+	}
+	.footer_detail{
+		color: #FFFFFF;
+		margin-left:20px;
+		width: 250px;
+	}
+	.footer_list{
+		color: #FFFFFF;
+		width: 200px;
+		margin-left:10px;
+	}
+	.footer_list ul {
+		margin-left:-40px;
+		list-style-type: none;
+		text-decoration: none;
+	}
+	.footer_list li a{
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	.footer_list li a:hover{
+		color: #812cc8;
+	}
+	.social{
+		color: #FFFFFF;
+		margin:0px 50px 50px 160px;
+	}
+	.social a{
+		margin-right:5px;
+		height:10px;
+	}
+	.social_logo{
+		width: 35px;
+	}
+/*Footer End*/
+/*Admin Navigation Footer Start*/
+	#admin_footer{
+		background: #101010;
+		padding: 1em 0;
+		height: 50px;
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		border-top: 0.5px solid #E1D5E7;
+	}
+	#nav_admin {
+		margin-bottom: 3px;
+	}
+	#nav_admin a {
+		bottom: 0;
+	}
+	#admin_logo{
+		width:100px;
+		margin: 0px 0px 0px 15px;
+	}
+	#admin_toggle{
+		display: none;
+	}
+/*Admin Navigation Footer End*/
+@media only screen and (max-width: 800px) {
+	/*Homepage Start*/
+	.updates{
+		display: grid;
+		grid-template-columns: 100%;
+		margin: 0px auto;
+		width:100%;
+	}
+	/*Homepage End*/
+	/*Join Now Start*/
+		.form_class_container{
+			display: grid;
+			grid-template-columns:5% 35% 5% 35%;
+			margin: 10px auto;
+			width:100%;
+		}
+		.form_class{
+			margin: 0px auto;
+			width:100%;
+		}
+	/*Join Now End*/
+}
+@media only screen and (max-width: 1200px) {
+	/*Navigation Bar Start*/
+		/*Ham burger label style*/
+		#burger{
+			float:right;
+			margin: -40px 30px;
+			font-size: 40px;
+			width: 26px;
+			line-height: 0px;
+			display: block;
+			cursor: pointer;
+			color: #FFFFFF;
+		}
+		/*Taking out bullet points off list*/
+		.nav_list {
+			margin: 0px;
+			padding: 0px;
+		}
+		/*presents and displaying headings when hovered*/
+		.nav_list li:hover {
+			display: block;
+			background-color: #812cc8;
+		}
+		/*position and design of drop down navigation menu*/
+		.nav_main {
+			background-color: #101010;
+			text-align: center;
+			width: 100%;
+			display: none;
+		}
+		.nav_main a {
+			display: block;
+			border-top: 1px solid #EAEAEB;
+			margin: -1px 5px;
+			line-height: 50px;
+			list-style: none;
+		}
+		/*position and function of toggle when checked*/
+		#toggle:checked + .nav_main {
+			position: absolute;
+			display: block;
+		}
+		.special{
+			background-color: #9673A6;
+		}
+		.special a{
+			color: #101010;
+		}
+		.special:hover{
+			background-color: #E1D5E7;
+		}
+	/*Navigation Bar End*/
+	/*Membership Start*/
+		.membership_info{
+			width: 80%;
+			max-width: 700px;
+			margin: 0px auto;
+			margin-bottom: 20px;
+		}
+		/*FAQ Start*/
+			.faq_container {
+				width: 90%;
+				max-width: 720px;
+			}
+			.faq_question h3:before {
+				content: '+';
+				font-size: 25px;
+				float: left;
+				margin:-8px;
+				margin-left: 0px;
+			}
+			.faq_question.active h3:before {
+				content: '-';
+			}
+		/*FAQ End*/
+	/*Membership End*/
+	/*Classes Start*/
+		/*Class Start*/
+		.class_container{
+			padding-bottom: 10px;
+		}
+		.gym_class_container{
+			margin: 0px auto;
+			width: 100%;
+		}
+		.img_class{
+			width: 90%;
+			margin-bottom: 15px;
+		}
+		/*Class End*/
+		/*Class Expand Start*/
+			.class_expand_container{
+				display: grid;
+				grid-template-columns: 100%;
+			}
+			.class_expand{
+				width: 90%;
+				padding-bottom: 30px;
+			}
+		/*Class Expand End*/
+	/*Classes End*/
+	/*About Us Start*/
+		.about_us_container{
+			display: grid;
+			grid-template-columns: 100%;
+		}
+		.about_us{
+			width: 90%;
+			padding-bottom: 30px;
+		}
+	/*About Us End*/
+	/*Testimonial Form Start*/
+		.testimonial{
+			width: 85%;
+		}
+		.form_search_container{
+			width: 85%;
+			height: 80px;
+			margin: auto;
+		}
+		.class_select{
+			height: 30px;
+			width: 40%;
+			max-width: 150px;
+			margin-top: -10px;
+		}
+		.search_button{
+			width: 40%;
+			max-width: 150px;
+			height: 30px;
+			margin-top: -10px;
+			margin-left: 5px;
+		}
+		.write_button{
+			display: none;
+		}
+		.testimonial_form{
+			width: 85%;
+			margin: auto;
+		}
+			/*Star Start*/
+			/*Star End*/
+	/*Testimonial Form End*/
+	/*Careers Start*/
+		.career_form{
+			max-width: 600px;
+			margin: auto;
+			padding: 10px 10px;
+		}
+	/*Careers End*/
+	/*Contact Us Start*/
+		.contact_contain{
+			padding-top:0px;
+			border-top: 0.5px solid #EAEAEB;
+		}
+		.contact_form{
+			width: 90%;
+			padding: 10px 10px;
+		}
+		#map{
+			margin:0px auto;
+			height:500px;
+			width:90%;
+		}
+	/*Contact Us End*/
+	/*Join Now Start*/
+		.form{
+			max-width: 700px;
+		}
+	/*Join Now End*/
+	/*Login Start*/
+		.login_area{
+			width: 85%;
+			max-width: 500px;
+			margin: 150px auto;
+		}
+		.login_area form input{
+			margin-bottom: 10px;
+			margin-left: 0px;
+			width: 100%;
+		}
+		.login_area form button{
+			width: 50%;
+			float:right;
+		}
+	/*Login End*/
+	/*Admin Form Start*/
+	/*Admin Form End*/
+	/*Footer Start*/
+		footer{
+			color: #FFFFFF;
+			padding:10px 0px 10px 0px;
+		}
+		.footer_list{
+			color: #FFFFFF;
+			margin-left:20px;
+		}
+		.social{
+			margin-left:20px;
+		}
+	/*Footer End*/
+	/*Admin Navigation Footer Start*/
+		#admin_burger{
+			float:right;
+			margin: -25px 30px;
+			font-size: 40px;
+			width: 26px;
+			line-height: 0px;
+			display: block;
+			cursor: pointer;
+			color: #FFFFFF;
+		}
+		#nav_admin{
+			position: fixed;
+		  bottom: 80px;
+		}
+		#admin_toggle:checked + #nav_admin {
+			position: absolute;
+			display: block;
+		}
+	/*Admin Navigation Footer End*/
+	}
+  @media only screen and (min-width: 1201px){
+	/*Navigation Bar Start*/
+		/*position and size of navigation bar*/
+		nav{
+			float: right;
+			width: 1000px;
+		}
+		/*position and style of unordered list */
+		.nav_list {
+			float: right;
+			margin: -55px 30px 0px 0px;
+		}
+		/*position and design of list */
+		nav ul li{
+			float:left;
+			margin: 0px 10px 0px 10px;
+			line-height: 30px;
+			height: 30px;
+			background-color: #101010;
+		}
+		.nav_main {
+				margin:-1px;
+		}
+		/*color change of navigation text when hovered*/
+		.nav_main a:hover {
+				color:#812cc8;
+		}
+		/*Join Now and Log In Buttons*/
+		.special{
+			margin-left: 5px;
+			background-color: #E1D5E7;
+
+		}
+		.special a{
+			margin:10px;
+			color: #101010;
+		}
+		.special:hover{
+			background-color: #9673A6;
+		}
+		.special a:hover{
+			color: #101010;
+		}
+	/*Navigation Bar End*/
+	/*Membership Start*/
+		.membership_container{
+			width: 1000px;
+			display: flex;
+			margin: 10px auto;
+		}
+		.membership_info{
+			width: 250px;
+		}
+		/*FAQ Start*/
+			.faq_question h3:before {
+				content: '+';
+				font-size: 35px;
+				float: left;
+				margin-top: -10px;
+			}
+			.faq_question.active h3:before {
+				content: '-';
+				margin-top: -15px;
+			}
+		/*FAQ End*/
+	/*Membership End*/
+	/*Classes Start*/
+		/*Timetable Start*/
+		.class_intro_container{
+			display: grid;
+			grid-template-columns: 50% 50%;
+		}
+		.img_timetable{
+			max-width:870px;
+			float: right;
+			margin-right: 30px;
+		}
+		/*Timetable End*/
+		/*Class Start*/
+		.class_container{
+			background-color: #101010;
+			margin: 0px auto;
+			width: 100%;
+			margin-top: -20px;
+			padding-top: 10px;
+			padding-bottom: 30px;
+		}
+		.gym_class_container{
+			display: grid;
+			grid-template-columns: 33% 33% 33%;
+			grid-gap: 12px;
+			margin: 0px auto;
+			width: 95%;
+		}
+		.class_container h1{
+			color: #812cc8;
+			text-align: center;
+		}
+		.img_class{
+			width: 100%;
+		}
+		/*Class End*/
+		/*Class Expand Start*/
+			.class_expand{
+				width: 80%;
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+		/*Class Expand End*/
+	/*Classes End*/
+	/*About Us Start*/
+		.about_us{
+			width: 80%;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	/*About Us End*/
+	/*Testimonial Start*/
+		.form_search_container{
+			display: grid;
+			grid-template-columns: 37% 15% 10% 38%;
+			width: 85%;
+			max-width: 800px;
+			margin-left: 100px;
+			margin-bottom: -10px;
+			height: 60px;
+		}
+
+		.testimonial_container .border{
+			width:100%;
+			margin-left:100px;
+		}
+		.class_select{
+			height: 30px;
+			min-width: 50px;
+			margin: auto;
+			margin-left: 10px;
+		}
+		.search_button{
+			height: 30px;
+			min-width: 100px;
+			margin: auto;
+			margin-left: 75px;
+		}
+		.write_button{
+			margin: 23px 0px 0px 100px;
+		}
+		.testimonial{
+			margin-left: 100px;
+		}
+		.testimonial_form{
+			width: 35%;
+		}
+		/*Testimonial Form Start*/
+			#borderwrite{
+				width: 90%;
+				height: 5px;
+				margin:0px auto;
+				margin-left: 100px;
+			}
+			/*Testimonial Form End*/
+	/*Testimonial End*/
+	/*Contact Us Start*/
+		.contact_contain{
+			display: grid;
+			grid-template-columns: 50% 50%;
+			border-top: 0.5px solid #EAEAEB;
+		}
+	/*Contact Us End*/
+	/*Login Start*/
+		.login_area form button{
+			margin-left: 95px;
+		}
+		#email{
+			margin-left: 48px;
+		}
+	/*Login End*/
+	/*Footer Start*/
+		.public_footer{
+			display: grid;
+			grid-template-columns: 21% 10% 69%;
+		}
+	/*Footer End*/
+	/*Admin Navigation Footer Start*/
+		#admin_list {
+			float: right;
+			margin: -35px 30px 0px 0px;
+		}
+	/*Admin Navigation Footer End*/
+}

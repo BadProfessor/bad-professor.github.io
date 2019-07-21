@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navigation">
+		<ul>
+			<li><a href="index.html" class="left">Home</a></li>
+			<li><a href="about.html" class="left">About</a></li>
+			<li><a href="contact.html" class="active left" onClick="refreshPage()">Contact</a></li>
+			<li><a href="profile.html" class="right">Profile</a></li>
+			<li><a href="search.html" class="right">Search</a></li>
+		</ul>
+	</nav>
+	<div class="clearfix"></div>
+	<!-- section opened up for the opening hours, address, telephone, email(mailto link)-->
+	<section>
+		<h3>Opening Hours</h3>
+		<p>Monday - Friday: 10:30am - 6:30pm <br> Saturday: 10:00am - 6:00pm <br> Sunday: 12:30pm - 6:00pm <br> Bank Holiday: 12:30pm - 6:00pm</p>
+		<h3>Address</h3>
+		<p>Bad Guitars <br> Bram Stoker Street 6 <br> Dublin 6 <br> D6 BR12 <br> Ireland</p>
+		<h3>Telephone</h3>
+		<p>+353 555 7382 1199</p>
+		<h3>E-Mail</h3>
+		<a href="mailto:info@badguitars.com">info@badguitars.com</a>
+	</section>
+	<!-- finds on the map section, which is a Google Map Screenshot-->
+	<section>
+		<h3>Find us on the map</h3>
+		<figure >
+			<!-- Dublin 6 looks very much like North Korea for some reason -->
+			<img class="stretch" src="images/map.jpg" alt="Map">
+		</figure>
+	</section>
+	<!-- A responsive contact form section where the user can input the information if they want to contact the company. Text space for the first name, last name, message text and the submit button   -->
+	<section class="contact">
+		<h3>Please contact us</h3>
+		<form>
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your first name.">
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name.">
+			<label for="message">Message</label>
+			<textarea id="message" name="message" placeholder="Please write your query here"></textarea>
+			<input type="submit" value="Submit">
+		</form>
+	</section>
+	<div class="clearfix"></div>
+	<footer>
+		<p>Bad Guitars</p>
+		<a href="#"><i class="fab fa-facebook-square"></i></a>
+		<a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+		<a href="#"><i class="fab fa-youtube-square fa-lg"></i></a>
+	</footer>
+</body>
+</html>

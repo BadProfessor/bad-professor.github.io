@@ -1,0 +1,365 @@
+/*rule to give the whole page responsive boxes*/
+* {
+  box-sizing: border-box;
+}
+/*this will give the body the Roboto font family, Arial and sans-serif as fallbacks, a gradient image and the font color white*/
+body {
+  font-family: Roboto,  Arial, sans-serif;
+  background-image: linear-gradient(to right, #1D4350, #A43931);
+  color: white;
+}
+/*to float right the nav bar items*/
+.right {
+  float: right;
+}
+/*to float left the nav bar items*/
+.left {
+  float: left;
+}
+/*the rule for all the unordered lists */
+ul {
+  list-style: none;
+  margin: 1em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
+  overflow: hidden;
+}
+/*rule for the anchors in lists, specifically designed for the nav bar*/
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1em 1em 1em 1em;
+  text-decoration: none;
+}
+/*the hover class for above*/
+li a:hover {
+  background-color: #111111;
+}
+/*2 active buttons for the navbar*/
+.active {
+  background-color: #A43944;
+}
+.active2 {
+  background-color: #004360;
+}
+/*paddings and margins for each section*/
+section {
+  padding: 1em 1em 1em 1em;
+  margin: 3em 1em 1em 1em;
+}
+/*all anchor tags do not have a decoration and the color is white*/
+a {
+  text-decoration: none;
+  color: white;
+}
+/*the rule for all the paragraphs*/
+p {
+  text-align: justify;
+  margin-top: 0;
+  margin-bottom: 0.1em;
+  display: block;
+  font-size: 1em;
+  line-height: 1.25em;
+}
+/*the rule for all the figures that contain images and optional figure captions*/
+figure {
+  margin-left: auto;
+  margin-right: auto;
+}
+/*class to allign text in the center*/
+.central {
+  text-align: center;
+}
+/*rule to remove the indentation from the unordered list in the product page*/
+.noindent {
+  list-style: none;
+  text-indent: 0;
+  margin: 0;
+  padding: 0;
+}
+/*class to stretch a tag, in this case an image*/
+.stretch {
+  width: 100%;
+}
+/*class for the figures to store images and the description*/
+.promotions {
+  margin: 0.3em 0.3em 0.3em 0.3em;
+  width: 11.25em;
+}
+/*hover for the above*/
+.promotions:hover {
+  border: 0.06em solid #1D4350;
+}
+/*rule for the images within the above class*/
+.promotions img {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  width: 100%;
+  height: auto;
+}
+/*class for the description in the above figure*/
+.description {
+  padding: 1em 1em 1em 1em;
+  text-align: center;
+}
+/*clearfix for the floated tags. If this is removed the floats float around the adjacent elements*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*class for the */
+footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  overflow: initial;
+}
+/*rule for the icons*/
+i {
+  float: left;
+  color: white;
+  padding-left: 1em;
+}
+/*hover*/
+i:hover {
+  opacity: 0.50;
+}
+/*rule for the icons in the cart form*/
+form i {
+  margin: 0.3em 0.3em 0.3em 0.3em;
+  float: left;
+  width: 8.5em;
+  color: white;
+}
+/*for all the buttons*/
+button {
+  background-color: #A43944;
+  color: white;
+  padding: 0.75em 1.25em;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+/*hover mode*/
+button:hover {
+  background-color: #A42049;
+}
+/*rule to shape input text select and text arema*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 0.75em;
+  border: 0.06em solid #1D4350;
+  border-radius: 0.25em;
+  margin-top: 0.375em;
+  margin-bottom: 1em;
+  resize: vertical;
+}
+/*shaping the submit button*/
+input[type=submit] {
+  background-color: #A43944;
+  color: white;
+  padding: 0.75em 1.25em;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+/*hover for the above*/
+input[type=submit]:hover {
+  background-color: #A42049;
+}
+/*shaping the contact form in the contact page*/
+.contact {
+  border-radius: 0.3em;
+  padding: 1.250em;
+}
+/*the class for the responsive elements in the figure to make them responsive. These will be modified in the media queries*/
+.responsive {
+  margin: 0 auto;
+  padding: 0.3em 0.3em 0.3em 0.3em;
+  float: left;
+  width: 24.2%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: top;
+  text-align: center;
+}
+/*CSS for the payment and shipping form, this whole section just shapes that form*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1em;
+}
+.col-25 {
+  flex: 25%;
+
+}
+.col-50 {
+  flex: 50%;
+}
+.col-75 {
+  flex: 75%;
+}
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 1em;
+}
+.container {
+  background-color: #f2f2f2;
+  color: black;
+  padding: 0.3em 1.25em 0.9em 1.25em;
+  border: 0.06em solid lightgrey;
+  border-radius: 0.188em;
+}
+.container i {
+  color: black;
+}
+/*end of the specific form in the cart.html*/
+/*shapes all the labels*/
+.icon-container {
+  margin-bottom: 1.25em;
+  padding: 0.438em 0;
+  font-size: 1.5em;
+}
+.price {
+  color: grey;
+  font-size: 1.375em;
+  text-align: center;
+}
+span.price {
+  float: right;
+  color: grey;
+}
+label {
+  margin-bottom: 0.625em;
+  display: block;
+}
+/*shapes the card in the profile page*/
+.card {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.2);
+  max-width: 37.5em;
+  margin: auto;
+  text-align: center;
+}
+.carddesc {
+  color: grey;
+  font-size: 1.125em;
+  text-align: center;
+}
+.card button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 0.5em;
+  color: white;
+  background-color: #000000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.125em;
+}
+.card button:hover, .card a:hover {
+  opacity: 0.7;
+}
+.card a {
+  text-decoration: none;
+  font-size: 1.375em;
+  color: black;
+}
+.card img {
+  width:100%;
+}
+/*end of the css just for the profile page card*/
+/*the following css is for the cards in the search page*/
+.card2 {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.2);
+  max-width: 18.750em;
+  margin: auto;
+  text-align: center;
+  float: left;
+}
+
+.card2 button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 0.5em;
+  background-color: #A43944;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.125em;
+}
+.card2 button:hover, .card2 a:hover {
+  background-color: #A42049;
+}
+.card2 a {
+  text-decoration: none;
+  font-size: 1.375em;
+  color: black;
+}
+.card2 img {
+  width:100%;
+}
+/*end of the css for the cards in the search page*/
+/*media queries for three different viewport sizes. I have taken the classes from above and applied them for the specific media queries, instead of targeting the specific elements. This was easier to apply to classes*/
+@media only screen and (max-width: 1277px) {
+  .responsive {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0.3em 0.3em 0.3em 0.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: top;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 951px) {
+  .row {
+    flex-direction: column;
+  }
+  .col-25 {
+    margin-bottom: 1.25em;
+  }
+  .right, 
+  .left {
+    float: none;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0.3em 0.3em 0.3em 0.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: top;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .responsive {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0.3em 0.3em 0.3em 0.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: top;
+    text-align: center;
+  }
+}

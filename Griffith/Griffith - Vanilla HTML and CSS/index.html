@@ -1,0 +1,82 @@
+<!-- the opening doctype tag -->
+<!DOCTYPE html>
+<!-- opening html tag and the language specification -->
+<html lang="en-us">
+<head>
+	<!-- title of the html to appear in the browser -->
+	<title>Bad Guitars</title>
+	<!-- charachter set -->
+	<meta charset="utf-8">
+	<!-- viewport tag to allow responsive design -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- link to the css file -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- link to the js file -->
+	<script type="text/javascript" src="js/script.js"></script>
+	<!-- link to the Roboto font API -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<!-- link to the Font Awesome cdn -->
+	<!-- the code in the headers of the other files won't be commented since they are duplicates -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" crossorigin="anonymous">
+</head>
+<body>
+	<!-- the navigation tag for the navigation panel, spaced left an right, and a reload function -->
+	<!-- the other navigation panels are duplicates so they won't be commented -->
+	<nav class="navigation">
+		<ul>
+			<li><a href="index.html" class="active left" onClick="refreshPage()">Home</a></li>
+			<li><a href="about.html" class="left">About</a></li>
+			<li><a href="contact.html" class="left">Contact</a></li>
+			<li><a href="profile.html" class="right">Profile</a></li>
+			<li><a href="search.html" class="right">Search</a></li>
+		</ul>
+	</nav>
+	<!-- This is an empty clearfix tag that is connected to css code that leaves out empty space between elements when floats are in use. I have found out that floats with the navbar and the footer don't function the way I want to without the fix. Especially the footer which breaks without the fix.-->
+	<div class="clearfix"></div>
+	<!-- Main header for the start site, centered -->
+	<h1 class="central">Welcome to Bad Guitars!</h1>
+	<!-- section with images and captions. This first image is also a link. The other images are not links since "the stock is not available yet, but coming soon." Tags for the element and responsiveness-->
+	<section>
+		<figure class="promotions responsive">
+			<a href="product.html"><img src="images/epiphone1.jpg" alt="Epiphone 1"></a>
+			<figcaption class="description">
+				<!-- Photo by Matthijs Smit on Unsplash -->
+				<p>Epiphone Emperor - In stock</p>
+			</figcaption>
+		</figure>
+
+		<figure class="promotions responsive">
+			<img src="images/epiphone2.jpg" alt="Epiphone 2">
+			<figcaption class="description">
+				<!-- Photo by Matthijs Smit on Unsplash -->
+				<p>Epiphone Gold Top - Coming Soon.</p>
+			</figcaption>
+		</figure>
+		<figure class="promotions responsive">
+			<img src="images/bass1.jpg" alt="Bass 1">
+			<figcaption class="description">
+				<!-- Photo by Kari Shea on Unsplash -->
+				<p>Squier Mustang Bass - Coming Soon.</p>
+			</figcaption>
+		</figure>
+		<figure class="promotions responsive">
+			<img src="images/acoustic1.jpg" alt="Acoustic 1">
+			<figcaption class="description">
+				<!-- Photo by Frame Harirak on Unsplash -->
+				<p>Sire Acoustic Guitars - Coming Soon.</p>
+			</figcaption>
+		</figure>
+	</section>
+	<div class="clearfix"></div>
+	<!-- footer tag for the footer content -->
+	<footer>
+		<!-- paragraph and icons for the footer -->
+		<!-- comment in the other files for footers won't be commented since they are duplicates -->
+		<p>Bad Guitars</p>
+		<!-- the icons from font awesome are creating warnings in the HTML validator since they are without textual content, but the code is valid and there is no other way to add font awesome code -->
+		<a href="#"><i class="fab fa-facebook-square"></i></a>
+		<a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+		<a href="#"><i class="fab fa-youtube-square fa-lg"></i></a>
+	</footer>
+</body>
+</html>
