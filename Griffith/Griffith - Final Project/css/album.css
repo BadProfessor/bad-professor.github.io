@@ -1,0 +1,33 @@
+/* code taken from the Bootstrap 4's album example and modified */
+/* jumbotron style */
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+/* reponsive code */
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+/* last paragraph in jumbotron */
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+/* jt heading */
+.jumbotron-heading {
+    font-weight: 300;
+    padding-top: 1em;
+}
+/* jt container */
+.jumbotron .container {
+    max-width: 40rem;
+}
+/* buttons in links margin */
+a > button {
+    margin: 0 0.5em;   
+   }
+   

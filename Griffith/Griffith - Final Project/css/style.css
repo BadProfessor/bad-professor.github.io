@@ -1,0 +1,190 @@
+/* body styling */
+html,
+body {
+    height: 100%;
+    margin-top: 5rem;
+}
+/* most of the code was taken from Bootstrap 4's examples and modified */
+body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+.bg {
+    
+    padding-top: 5rem;
+		height: 150%;
+		width: 100%;
+		background: url("../images/bg.jpg");
+		display: table;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -8rem;
+}
+.wh {
+  color: black;
+}
+/* starter template styling */
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+/* Sign In form */
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+/* checkbox */
+.form-signin .checkbox {
+    font-weight: 400;
+}
+/* form shape */
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+/* focus */
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+/* email style */
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+/* password style */
+.form-signin input[type="password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+/* container style */
+.container {
+    max-width: 960px;
+}
+/* registration container */
+.registration-container {
+    padding-top: 60rem;
+}
+/* ? */
+.lh-condensed {
+    line-height: 1.25;
+}
+/* additional margin for the signin and registration form */
+.t_margin {
+    margin-top: 10px;
+}
+/* button in links margin */
+a > button {
+ margin: 0 0.5em;   
+}
+.img-responsive {
+    height: 30em;
+    width: 30em;
+    max-width: 90%;
+    max-height: 50%;
+}
+.wrapper {
+    width: 50em;
+    margin: 0 auto;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+table tr td:last-child a {
+    margin-right: 15px;
+}
+
+.form-control-static, td {
+    word-break: break-all;
+    table-layout: fixed;
+}
+
+.container {
+    max-width: 960px;
+  }
+  
+  /*
+   * Custom translucent site header
+   */
+  
+  .site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #999;
+    transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+  
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      flex: 1;
+    }
+  }
+  
+  .overflow-hidden { overflow: hidden; }
+  
