@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+# https://blockfuzz.herokuapp.com
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -7,15 +7,13 @@
 
 # Site settings
 title: Under Construction
-email: your-email@domain.com
+email: juraj.jarmek@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+  Developing and testing site is at: https://blockfuzz.herokuapp.com
+  It will be ported here once developing and testing is finished.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://blockfuzz.com/" # the base hostname & protocol for your site
+github_username:  BadProfessor
 
 # Build settings
 markdown: kramdown
