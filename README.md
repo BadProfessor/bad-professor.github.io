@@ -1,2 +1,2 @@
 # bad-professor.github.io
-Repository for student projects
+Repository for the website - unfinished.
