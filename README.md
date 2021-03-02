@@ -1,2 +1,2 @@
-# bad-professor.github.io
-Repository for the website - unfinished.
+Repository for blockfuzz.com
+Project unfinished.
